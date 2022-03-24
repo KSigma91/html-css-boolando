@@ -7,14 +7,15 @@
 
 /* impostazioni generali */
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 }
 
-.list {     
-    margin-top: 10px;
+.list {   
+    display: inline-block;  
+    margin: 30px 5px;
     height: auto;
-    width: 400px;
+    width: 300px;
 }
 
 .list .product {
