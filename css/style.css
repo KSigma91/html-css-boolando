@@ -91,17 +91,23 @@
 
 .info .brand {
     font-size: 13px;
-    font-weight: lighter;
+    font-weight: 400;
+}
+
+.info p {
+    font-weight: bold;
 }
 
 .info .price {
     font-size: 14px;
+    font-weight: bold;
     color: rgb(255, 136, 0);
 }
 
 .info .barred {
     text-decoration: line-through;
     font-size: 12px;
+    font-weight: 400;
 }
 /* chiusura informazioni prodotto */
 /* chiusura impostazioni generali */
