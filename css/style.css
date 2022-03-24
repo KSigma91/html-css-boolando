@@ -4,3 +4,79 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* impostazioni generali */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.list {     
+    margin-top: 10px;
+    height: auto;
+    width: 400px;
+}
+
+.list .product {
+    position: relative;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product .label {
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    padding: 4px;
+}
+
+.product .label.discount {
+    background: rgb(255, 136, 0);
+    border-radius: 0 5px 5px 0;
+    bottom: 20px;
+    left: 0;
+}
+
+.product .label.eco {
+    background: rgb(125, 197, 83);
+    border-radius: 5px;  
+    bottom: 20px;
+    left: 43px; 
+}
+
+.product .heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background: white;
+    border-radius: 5px 0 0 5px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: 50px;
+}
+/* informazioni prodotto */
+.list .info {
+    line-height: 17px;
+}
+
+.info .brand {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.info .price {
+    font-size: 14px;
+    color: rgb(255, 136, 0);
+}
+
+.info .barred {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+/* chiusura informazioni prodotto */
+/* chiusura impostazioni generali */
