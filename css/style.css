@@ -47,6 +47,17 @@
     left: 43px; 
 }
 
+.product #eco {
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    padding: 4px;
+    background: rgb(125, 197, 83);
+    border-radius: 0 5px 5px 0;  
+    bottom: 20px;
+    left: 0; 
+}
+
 .product .heart {
     position: absolute;
     top: 20px;
