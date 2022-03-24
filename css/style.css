@@ -60,13 +60,26 @@
     line-height: 50px;
     vertical-align: 50px;
 }
+
+/* hover */
+.product .hide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product:hover .hide {
+    display: block;
+}
+
 /* informazioni prodotto */
 .list .info {
     line-height: 17px;
 }
 
 .info .brand {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: lighter;
 }
 
