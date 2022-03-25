@@ -49,13 +49,13 @@
 }
 
 .product .label {
-    position: absolute;
     font-size: 11px;
     color: white;
     padding: 4px;
 }
 
 .product .label.discount {
+    position: absolute;
     background: rgb(255, 136, 0);
     border-radius: 0 5px 5px 0;
     bottom: 20px;
@@ -64,6 +64,7 @@
 }
 
 .product .label.eco {
+    position: absolute;
     background: rgb(125, 197, 83);
     border-radius: 5px;  
     bottom: 20px;
